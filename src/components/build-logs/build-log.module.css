@@ -1,0 +1,39 @@
+.container {
+  color: #d9d7e0;
+  display: flex;
+  gap: 8px;
+  line-height: 1.8;
+  font-size: 14px;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
+  scroll-margin: 50px;
+}
+
+.timestamp {
+  color: #b7b5bd;
+  font-style: italic;
+}
+
+.message {
+  white-space: pre-wrap;
+}
+
+.success {
+  color: #59c156;
+  font-weight: 600;
+}
+
+.info {
+  color: #3fa9f5;
+  font-weight: 600;
+}
+
+.error {
+  color: #ff4b4b;
+  font-weight: 600;
+}
+
+.warning {
+  color: #f5a623;
+  font-weight: 600;
+}
