@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info {
+  color: #ea9005;
+}
+
+.success {
+  color: #0eb87f;
+}
+
+.failed {
+  color: rgb(217, 69, 63);
+}
+
+.queued {
+  color: #aaaaaa;
+}
+
+.building {
+  color: #3fa9f5;
+}
+
+.cancelled {
+  color: #ea9005;
+}

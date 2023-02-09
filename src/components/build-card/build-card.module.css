@@ -1,0 +1,39 @@
+.container {
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: rgb(46 41 51 / 8%) 0px 1px 2px, rgb(71 63 79 / 8%) 0px 2px 4px;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.cancelButton {
+  font-size: 16px;
+  font-weight: 400;
+  color: #db1010;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cancelButton:hover {
+  color: rgb(255, 0, 0);
+}

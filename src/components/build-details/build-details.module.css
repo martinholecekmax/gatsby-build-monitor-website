@@ -1,0 +1,30 @@
+.container {
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.cancelButton {
+  background-color: #da0013 !important;
+  color: white !important;
+}
+
+.cancelButton:hover {
+  background-color: #b3000d !important;
+  color: white !important;
+}

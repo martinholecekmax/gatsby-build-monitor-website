@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+}
+
+.triggerButton,
+.dropDownButton {
+  background-color: #8a4baf !important;
+  color: white !important;
+}
+
+.triggerButton {
+  border-radius: 4px 0 0 4px;
+}
+
+.dropDownButton {
+  border-radius: 0 4px 4px 0;
+}
+
+.triggerButton:hover,
+.dropDownButton:hover {
+  background-color: #663399 !important;
+  color: white !important;
+}
+
+.dropDown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropDownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0;
+  cursor: pointer;
+}
+
+.dropDown:hover .dropDownContent {
+  display: block;
+}
+
+.clearButton {
+  padding: 12px 16px;
+  white-space: nowrap;
+}
+
+.clearButton:hover {
+  background-color: #f1f1f1;
+}
