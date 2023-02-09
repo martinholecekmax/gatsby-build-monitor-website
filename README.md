@@ -6,13 +6,22 @@ The blog post can be found here: [Real-time Gatsby Build Monitoring with React a
 
 ![Gatsby Build Monitor](./public/builds-list-real-time.png)
 
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [List of Builds Page](#list-of-builds-page)
+- [Build Details Page](#build-details-page)
+- [Contributing](#contributing)
+
 ## Features
 
-Showing the status of the ongoing build
-Providing the status of past builds
-Presenting logs of the build process
-Queuing builds for processing in order
-Cancelling builds that are in progress or waiting in the queue.
+- Showing the status of the ongoing build
+- Providing the status of past builds
+- Presenting logs of the build process
+- Queuing builds for processing in order
+- Canceling builds that are in progress or waiting in the queue.
 
 ## Prerequisites
 
